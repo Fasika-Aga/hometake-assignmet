@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color:antiquewhite;
+    background-color: antiquewhite;
 }
 
 header {
@@ -74,6 +74,7 @@ img:hover {
 .myheader {
     color: pink;
 }
+
 /* Apply styles to the select dropdown */
 select {
     padding: 8px;
@@ -94,7 +95,8 @@ th {
 }
 
 /* Style table cells */
-td, th {
+td,
+th {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
@@ -102,7 +104,7 @@ td, th {
 
 /* Apply styles to the footer */
 footer {
-    background-color:green;
+    background-color: green;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -110,8 +112,15 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 /* Reset some default styles */
-body, h1, h2, p, ul, li, form {
+body,
+h1,
+h2,
+p,
+ul,
+li,
+form {
     margin: 0;
     padding: 0;
 }
@@ -169,7 +178,8 @@ label {
     margin-bottom: 8px;
 }
 
-input, select {
+input,
+select {
     width: 100%;
     padding: 8px;
     margin-bottom: 12px;
@@ -189,7 +199,8 @@ table {
     margin-top: 20px;
 }
 
-th, td {
+th,
+td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
@@ -198,5 +209,3 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
-
-
